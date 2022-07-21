@@ -34,4 +34,28 @@ h1{
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: repeat-y;
+    background-position:right;
+
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    border-radius: 7px;
+    box-shadow: 10px 10px 20px gray;
+}
+#full-stack-developer{
+    border-left: 7px solid orangered;
+}
+#baby-web-developer{
+    border-left: 7px solid orange;
+}
+footer p{
+    text-align: center;
 }
